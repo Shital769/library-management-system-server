@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema(
       max: 12,
       required: true,
     },
-    membershipID: {
+    userID: {
       type: Number,
       min: 1,
       max: 255,
